@@ -8,11 +8,11 @@ A reproducible benchmark for AI-assisted NHANES survey-analysis preparation. The
 
 **Yisong Chen, corresponding author** — College of Computing, Georgia Institute of Technology, Atlanta, GA 30332, USA. Email: ychen841@gatech.edu. ORCID: [0009-0009-4978-7565](https://orcid.org/0009-0009-4978-7565).
 
-## Obtain the reviewed software
+## Download software and manuscript
 
 - Download the complete [0.4.8 software ZIP](NHANES_CardioBench_v0.4.8.zip) and verify [SHA256SUMS.txt](SHA256SUMS.txt).
 - Browse the expanded [software source and evidence](software/). In a Git clone, enter `software/` before running the commands below.
-- The fixed-version release page contains the same complete ZIP, wheel, source distribution and accompanying manuscript.
+- The [v0.4.8 research release](https://github.com/fdhdfgfdfdg/NHANES-CardioBench/releases/tag/v0.4.8) contains the complete ZIP, wheel, source distribution, [updated manuscript](NHANES_CardioBench_v0_4_8_Complete.docx) and checksums.
 - [Detailed user guide](software/README.md), [protocol](software/docs/protocol.md), [installation and release validation](software/docs/release.md), and [runner documentation](software/docs/runs.md).
 
 ## Quick start
@@ -37,7 +37,7 @@ Use a fresh output folder. Existing paper evidence and historical records are re
 - All 445 automated test methods passed on CPython 3.12.14/Linux.
 - Complete-delivery-v8 verification, byte regeneration, clean wheel installation, offline source-distribution rebuilding and five-to-thirty-two-case resume passed after the author metadata update.
 
-The [publication workflow](https://github.com/fdhdfgfdfdg/NHANES-CardioBench/actions/workflows/publication.yml) expands the exact checksum-verified delivery into `software/` and tests the configured Linux, Windows and macOS combinations with Python 3.10, 3.12 and 3.13. Read its actual run results for remote status.
+The [publication workflow](https://github.com/fdhdfgfdfdg/NHANES-CardioBench/actions/workflows/publication.yml) expands the exact checksum-verified delivery into `software/` and tests the configured Linux, Windows and macOS combinations with Python 3.10, 3.12 and 3.13. CI resolves TEMP, TMP and TMPDIR to canonical runner paths for path comparisons, and stores generated CI evidence outside the frozen source tree. Completed [public CI jobs](https://github.com/fdhdfgfdfdg/NHANES-CardioBench/actions/runs/41610390028) have passed on Linux and Windows with Python 3.10, 3.12 and 3.13, and on macOS with Python 3.10 and 3.12. The linked run tracks the remaining configured combination and any later results. The manuscript states the combinations verified at its preparation checkpoint.
 
 ## Interpretation and provenance
 

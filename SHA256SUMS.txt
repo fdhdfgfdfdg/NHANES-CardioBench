@@ -1,1 +1,4 @@
 111a8dabac75b9fedb1526e9a04005cae8a8e6e1e45254a4773a7e4ad7866c53  NHANES_CardioBench_v0.4.8.zip
+170daa15c9280d7602f4c75696bcd17aaf8a20083ca33fc802a5780b1f413594  nhanes_cardiobench-0.4.8-py3-none-any.whl
+62f59a85fdd755744b19ab2dde297e65784f788c9620f07c85dfecb761ba5d55  nhanes_cardiobench-0.4.8.tar.gz
+6cfe4b2ba4128f066c7617d739f4aeec5eede857c7a0ce1452aae780bdaed2b0  NHANES_CardioBench_v0_4_8_Complete.docx
