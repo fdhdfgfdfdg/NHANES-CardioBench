@@ -73,6 +73,18 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Record tested commit
         run: git rev-parse HEAD
+      - name: Use canonical temporary-directory paths
+        shell: python
+        run: |
+          from pathlib import Path
+          import os
+          temporary=(Path(os.environ['RUNNER_TEMP']).resolve()/'cardiobench-temp').resolve()
+          temporary.mkdir(parents=True,exist_ok=True)
+          with open(os.environ['GITHUB_ENV'],'a',encoding='utf-8') as stream:
+              for key in ('TEMP','TMP','TMPDIR'):
+                  stream.write(f'{key}={temporary}\n')
+      - name: Check caller-relative output paths
+        run: python -m unittest discover -s tests -p test_round10.py -k test_runtime_relative_output_from_another_directory -v
       - name: Verify complete delivery
         run: python -m cardiobench verify --require-artifacts
       - name: Run all 445 regression tests
@@ -82,15 +94,15 @@ jobs:
       - name: Check release accounting
         run: python tools/check_release.py --core-only
       - name: Reproduce benchmark results
-        run: python -m cardiobench reproduce --out results/ci
+        run: python -m cardiobench reproduce --out ../ci_evidence/reproduced
       - name: Prepare pinned build tools
         run: python -m pip install -r requirements-build.txt
       - name: Build current wheel and source distribution
         run: python -m build --no-isolation --outdir dist
       - name: Test installed wheel and offline source rebuild
-        run: python tools/check_installation.py --package-dir dist
+        run: python tools/check_installation.py --package-dir dist --out ../ci_evidence/installation.json --sdist-out ../ci_evidence/sdist_build.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: validation-${{ matrix.os }}-${{ matrix.python }}
-          path: software/results/ci/
+          path: ci_evidence/
