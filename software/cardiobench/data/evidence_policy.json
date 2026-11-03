@@ -1,0 +1,30 @@
+{
+  "version": "0.4.8",
+  "review_status": "author-defined alternative evidence; independent human adjudication pending",
+  "alternatives": {
+    "W11": [
+      [
+        "TRIGLY_J:WTSAF2YR",
+        "WEIGHTING:SELECTION"
+      ],
+      [
+        "GLU_J:WTSAF2YR",
+        "TRIGLY_J:WTSAF2YR",
+        "WEIGHTING:SELECTION"
+      ]
+    ]
+  },
+  "rationale": {
+    "W11": "Both requested component codebooks document WTSAF2YR as the Fasting Subsample 2 Year MEC Weight for the same cycle. The strict historical score is retained separately."
+  },
+  "source_ids": [
+    "GLU_J:WTSAF2YR",
+    "TRIGLY_J:WTSAF2YR"
+  ],
+  "task_fingerprints": {
+    "W11": "c427c1b23f8eb0ebe79183e925b872d3a41737d62187b3f793c35e3c782894d6"
+  },
+  "gold_fingerprints": {
+    "W11": "335a1e823425b4f8546332b38902e74f58a4f8305fc5382b25ce485db2ba9022"
+  }
+}

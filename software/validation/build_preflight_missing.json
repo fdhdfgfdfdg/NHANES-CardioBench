@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/workspace/scratch/2b89fc9880b5/cardio_publish/missing_backend_env/bin/python",
+    "tools/check_installation.py",
+    "--package-dir",
+    "/workspace/scratch/2b89fc9880b5/cardio_publish/source/packages",
+    "--out",
+    "/workspace/scratch/2b89fc9880b5/cardio_publish/negative_out/installation.json",
+    "--sdist-out",
+    "/workspace/scratch/2b89fc9880b5/cardio_publish/negative_out/sdist_build.json"
+  ],
+  "cwd": "/workspace/scratch/2b89fc9880b5/cardio_publish/source",
+  "returncode": 2,
+  "stdout": "",
+  "stderr": "BUILD_ENVIRONMENT_NOT_READY: pip is not installed; build is not installed; setuptools is not installed; wheel is not installed. Prepare this interpreter with python -m pip install -r requirements-build.txt before offline validation.\n",
+  "success_reports_created": false,
+  "scope": "Observed local negative preflight check in a clean interpreter without build/setuptools/wheel."
+}

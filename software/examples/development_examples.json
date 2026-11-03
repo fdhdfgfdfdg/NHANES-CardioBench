@@ -1,0 +1,160 @@
+{
+  "scope": "Four authored tutorials, outside the scored benchmark; not independent validation",
+  "examples": [
+    {
+      "id": "EX-D01",
+      "kind": "leakage",
+      "request": {
+        "label_sources": [
+          "outcome"
+        ],
+        "feature_dependencies": {
+          "direct": [
+            "outcome"
+          ],
+          "indirect": [
+            "direct"
+          ],
+          "independent": [
+            "age"
+          ]
+        }
+      },
+      "expected": {
+        "status": "answer",
+        "answer": {
+          "excluded_features": [
+            "direct",
+            "indirect"
+          ]
+        },
+        "evidence": [
+          "POLICY:DEPENDENCY"
+        ],
+        "reason_code": null
+      },
+      "cycle": "2017-2018"
+    },
+    {
+      "id": "EX-D02",
+      "kind": "leakage",
+      "request": {
+        "label_sources": [
+          "outcome"
+        ],
+        "feature_dependencies": {
+          "a": [
+            "b"
+          ],
+          "b": [
+            "a"
+          ]
+        }
+      },
+      "expected": {
+        "status": "reject",
+        "answer": {},
+        "evidence": [
+          "POLICY:DEPENDENCY"
+        ],
+        "reason_code": "CYCLIC_DEPENDENCY"
+      },
+      "cycle": "2017-2018"
+    },
+    {
+      "id": "EX-E01",
+      "kind": "execution",
+      "request": {
+        "synthetic": true,
+        "key": "id",
+        "weight_column": "w",
+        "age_column": "age",
+        "value_column": "x",
+        "minimum_age": 18,
+        "left": [
+          {
+            "id": 11,
+            "age": 30,
+            "w": 1
+          },
+          {
+            "id": 12,
+            "age": 40,
+            "w": 3
+          }
+        ],
+        "right": [
+          {
+            "id": 11,
+            "x": 10
+          },
+          {
+            "id": 12,
+            "x": 30
+          }
+        ]
+      },
+      "expected": {
+        "status": "answer",
+        "answer": {
+          "joined_rows": 2,
+          "cohort_n": 2,
+          "weighted_mean": 25.0
+        },
+        "evidence": [
+          "POLICY:EXECUTION"
+        ],
+        "reason_code": null
+      },
+      "cycle": "2017-2018"
+    },
+    {
+      "id": "EX-E02",
+      "kind": "execution",
+      "request": {
+        "synthetic": true,
+        "key": "id",
+        "weight_column": "w",
+        "age_column": "age",
+        "value_column": "x",
+        "minimum_age": 18,
+        "left": [
+          {
+            "id": 11,
+            "age": 30,
+            "w": 1
+          },
+          {
+            "id": 12,
+            "age": 40,
+            "w": 3
+          },
+          {
+            "id": 11,
+            "age": 30,
+            "w": 1
+          }
+        ],
+        "right": [
+          {
+            "id": 11,
+            "x": 10
+          },
+          {
+            "id": 12,
+            "x": 30
+          }
+        ]
+      },
+      "expected": {
+        "status": "reject",
+        "answer": {},
+        "evidence": [
+          "POLICY:EXECUTION"
+        ],
+        "reason_code": "DUPLICATE_KEY"
+      },
+      "cycle": "2017-2018"
+    }
+  ]
+}

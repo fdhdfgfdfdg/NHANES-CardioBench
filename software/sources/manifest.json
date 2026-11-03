@@ -1,0 +1,106 @@
+[
+  {
+    "id": "DEMO_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm",
+    "path": "sources/snapshots/DEMO_J.html",
+    "sha256": "07f8f1e7f884fab180ccf53c705652de9d663833fdad85b0d759919c8464cde0",
+    "size_bytes": 167262,
+    "retrieved_utc": "2026-10-02T00:17:23.424181+00:00"
+  },
+  {
+    "id": "MCQ_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/MCQ_J.htm",
+    "path": "sources/snapshots/MCQ_J.html",
+    "sha256": "46e21d2184592135585af1999e603ce47b5685abbeb828858bb429fbe6f8ae44",
+    "size_bytes": 257835,
+    "retrieved_utc": "2026-10-02T00:17:23.608454+00:00"
+  },
+  {
+    "id": "BPQ_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPQ_J.htm",
+    "path": "sources/snapshots/BPQ_J.html",
+    "sha256": "1e3a1632530146d45f7fccba1a06da30db0e49e17b58842dca874b713a01021b",
+    "size_bytes": 34559,
+    "retrieved_utc": "2026-10-02T00:17:23.404032+00:00"
+  },
+  {
+    "id": "PAQ_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PAQ_J.htm",
+    "path": "sources/snapshots/PAQ_J.html",
+    "sha256": "0d14e3602706ae11d6e977470bcb5c2b42301ad28c144090f7298f41dd92d764",
+    "size_bytes": 57846,
+    "retrieved_utc": "2026-10-02T00:17:23.352352+00:00"
+  },
+  {
+    "id": "BPX_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.htm",
+    "path": "sources/snapshots/BPX_J.html",
+    "sha256": "a7583578150897efec8748a3bc05ecbc6e54d5a0b5a32cdfda87c883aba56a37",
+    "size_bytes": 52515,
+    "retrieved_utc": "2026-10-02T00:17:23.357158+00:00"
+  },
+  {
+    "id": "BMX_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm",
+    "path": "sources/snapshots/BMX_J.html",
+    "sha256": "557b2ad6946237b7a169819006e7126e48e25cdb45926605cb368342c6773689",
+    "size_bytes": 49460,
+    "retrieved_utc": "2026-10-02T00:17:27.421684+00:00"
+  },
+  {
+    "id": "TCHOL_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TCHOL_J.htm",
+    "path": "sources/snapshots/TCHOL_J.html",
+    "sha256": "068687f44f726b2bc41da501691d6bb46bf5076106511f1d787d42c63630f916",
+    "size_bytes": 21179,
+    "retrieved_utc": "2026-10-02T00:17:27.508796+00:00"
+  },
+  {
+    "id": "HDL_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HDL_J.htm",
+    "path": "sources/snapshots/HDL_J.html",
+    "sha256": "140497f53050cb264cfcf250c3f6dd289ef44dce988ca1f1bf01dca69fa37501",
+    "size_bytes": 21182,
+    "retrieved_utc": "2026-10-02T00:17:27.470747+00:00"
+  },
+  {
+    "id": "TRIGLY_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TRIGLY_J.htm",
+    "path": "sources/snapshots/TRIGLY_J.html",
+    "sha256": "a8b09d5cf301debc19b5f51d36ddab61f53af36e537a5e0daada7d1307ebc0f9",
+    "size_bytes": 48324,
+    "retrieved_utc": "2026-10-02T00:17:27.464604+00:00"
+  },
+  {
+    "id": "GLU_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.htm",
+    "path": "sources/snapshots/GLU_J.html",
+    "sha256": "cb8808a45e6b05ac9f2d31c799b501affec60ae3f2573d08da8315fe02f04ee2",
+    "size_bytes": 20654,
+    "retrieved_utc": "2026-10-02T00:17:27.603961+00:00"
+  },
+  {
+    "id": "GHB_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GHB_J.htm",
+    "path": "sources/snapshots/GHB_J.html",
+    "sha256": "b9f90ef7aa539fe98edc776818ddfbfc4ee9f88ecf5c21ba168c5de8116e174d",
+    "size_bytes": 15275,
+    "retrieved_utc": "2026-10-02T00:17:32.264381+00:00"
+  },
+  {
+    "id": "DR1TOT_J",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR1TOT_J.htm",
+    "path": "sources/snapshots/DR1TOT_J.html",
+    "sha256": "557fdeea3572f115c5114fc6440acb1c7d0dc909e2097b9f06b06e3922350ec2",
+    "size_bytes": 449486,
+    "retrieved_utc": "2026-10-02T00:17:32.191460+00:00"
+  },
+  {
+    "id": "WEIGHTING",
+    "url": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/weighting.aspx",
+    "path": "sources/snapshots/WEIGHTING.html",
+    "sha256": "519eb5ada8667a4d8a6cec8b797247256b5faf63f8fb26d891c022589119afad",
+    "size_bytes": 414434,
+    "retrieved_utc": "2026-10-02T00:17:32.238880+00:00"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "version": "0.4.8",
+  "cycle": "2017-2018",
+  "families": {
+    "semantic": 16,
+    "coding": 16,
+    "weights": 16,
+    "leakage": 28,
+    "execution": 28
+  },
+  "canonical_workloads": 89,
+  "checks": 104,
+  "development_checks": 32,
+  "evaluation_checks": 72,
+  "source_rule_groups": 31,
+  "expected_abstentions": 4,
+  "expected_rejections": 13,
+  "official_variable_occurrences": 383,
+  "snapshots": 13,
+  "section_hash_scheme": "sha256 of HTMLParser section text; whitespace collapsed, UTF-8; v1",
+  "independent_human_annotation": "not performed",
+  "patient_records": "none; execution fixtures are synthetic"
+}

@@ -1,0 +1,51 @@
+{
+  "version": "0.4.2",
+  "status": "passed",
+  "first": {
+    "run_id": "2fec7bcc-1523-4fbd-91ba-873779e49d26",
+    "binding_sha256": "69444b8d0533b896fb8b6a341133a47e5bfc11f67fc68d5a0334280a5b0f376f",
+    "completed_cases": 5,
+    "total_cases": 32,
+    "status": "partial",
+    "failed_cases": 0,
+    "execution_failed_cases": 0,
+    "format_failed_cases": 0,
+    "incorrect_answer_cases": 0,
+    "evidence_mismatch_cases": 0,
+    "error_counts": {},
+    "total_attempts": 5
+  },
+  "resumed": {
+    "run_id": "2fec7bcc-1523-4fbd-91ba-873779e49d26",
+    "binding_sha256": "69444b8d0533b896fb8b6a341133a47e5bfc11f67fc68d5a0334280a5b0f376f",
+    "completed_cases": 32,
+    "total_cases": 32,
+    "status": "complete",
+    "failed_cases": 0,
+    "execution_failed_cases": 0,
+    "format_failed_cases": 0,
+    "incorrect_answer_cases": 0,
+    "evidence_mismatch_cases": 0,
+    "error_counts": {},
+    "total_attempts": 32
+  },
+  "completed_resume": {
+    "run_id": "2fec7bcc-1523-4fbd-91ba-873779e49d26",
+    "binding_sha256": "69444b8d0533b896fb8b6a341133a47e5bfc11f67fc68d5a0334280a5b0f376f",
+    "completed_cases": 32,
+    "total_cases": 32,
+    "status": "complete",
+    "failed_cases": 0,
+    "execution_failed_cases": 0,
+    "format_failed_cases": 0,
+    "incorrect_answer_cases": 0,
+    "evidence_mismatch_cases": 0,
+    "error_counts": {},
+    "total_attempts": 32
+  },
+  "final_joint_correct": 32,
+  "final_attempts": 32,
+  "completed_checkpoint_unchanged": true,
+  "checkpoint_sha256": "4f6c2d8f01ee870c1a08288ff2ac9b0071b83ae36ba6f70a64accaa1a0adba6e",
+  "scope": "trusted authored positive control, not an external model experiment"
+}

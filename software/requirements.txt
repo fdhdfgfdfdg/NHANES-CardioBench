@@ -1,0 +1,2 @@
+# No third-party runtime dependencies. CPython 3.10 or newer.
+# The measured environment is pinned in environment.lock.json.

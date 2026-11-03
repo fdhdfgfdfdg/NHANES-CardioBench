@@ -1,0 +1,98 @@
+[
+  {
+    "concept": "self-reported history of clinician-diagnosed stroke",
+    "variable": "MCQ160F",
+    "file": "MCQ_J",
+    "evidence_id": "MCQ_J:MCQ160F"
+  },
+  {
+    "concept": "self-reported history of clinician-diagnosed congestive heart failure",
+    "variable": "MCQ160B",
+    "file": "MCQ_J",
+    "evidence_id": "MCQ_J:MCQ160B"
+  },
+  {
+    "concept": "self-reported history of clinician-diagnosed coronary heart disease",
+    "variable": "MCQ160C",
+    "file": "MCQ_J",
+    "evidence_id": "MCQ_J:MCQ160C"
+  },
+  {
+    "concept": "self-reported history of clinician-diagnosed myocardial infarction",
+    "variable": "MCQ160E",
+    "file": "MCQ_J",
+    "evidence_id": "MCQ_J:MCQ160E"
+  },
+  {
+    "concept": "self-reported history of clinician-diagnosed angina",
+    "variable": "MCQ160D",
+    "file": "MCQ_J",
+    "evidence_id": "MCQ_J:MCQ160D"
+  },
+  {
+    "concept": "self-reported history of clinician-diagnosed arthritis",
+    "variable": "MCQ160A",
+    "file": "MCQ_J",
+    "evidence_id": "MCQ_J:MCQ160A"
+  },
+  {
+    "concept": "current thyroid problem",
+    "variable": "MCQ170M",
+    "file": "MCQ_J",
+    "evidence_id": "MCQ_J:MCQ170M"
+  },
+  {
+    "concept": "previous professional diagnosis of hypertension",
+    "variable": "BPQ020",
+    "file": "BPQ_J",
+    "evidence_id": "BPQ_J:BPQ020"
+  },
+  {
+    "concept": "current prescribed antihypertensive medication",
+    "variable": "BPQ050A",
+    "file": "BPQ_J",
+    "evidence_id": "BPQ_J:BPQ050A"
+  },
+  {
+    "concept": "vigorous activity performed at work",
+    "variable": "PAQ605",
+    "file": "PAQ_J",
+    "evidence_id": "PAQ_J:PAQ605"
+  },
+  {
+    "concept": "walking or cycling for transport",
+    "variable": "PAQ635",
+    "file": "PAQ_J",
+    "evidence_id": "PAQ_J:PAQ635"
+  },
+  {
+    "concept": "daily sedentary minutes",
+    "variable": "PAD680",
+    "file": "PAQ_J",
+    "evidence_id": "PAQ_J:PAD680"
+  },
+  {
+    "concept": "first-day dietary sodium intake",
+    "variable": "DR1TSODI",
+    "file": "DR1TOT_J",
+    "evidence_id": "DR1TOT_J:DR1TSODI"
+  },
+  {
+    "concept": "fasting glucose in mg/dL",
+    "variable": "LBXGLU",
+    "file": "GLU_J",
+    "evidence_id": "GLU_J:LBXGLU"
+  },
+  {
+    "concept": "Friedewald calculated LDL cholesterol",
+    "variable": "LBDLDL",
+    "file": "TRIGLY_J",
+    "evidence_id": "TRIGLY_J:LBDLDL"
+  },
+  {
+    "concept": "direct HDL cholesterol",
+    "variable": "LBDHDD",
+    "file": "HDL_J",
+    "evidence_id": "HDL_J:LBDHDD"
+  }
+]

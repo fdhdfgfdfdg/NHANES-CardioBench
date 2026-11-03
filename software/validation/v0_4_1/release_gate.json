@@ -1,0 +1,22 @@
+{
+  "test_methods": 233,
+  "status": "passed",
+  "version": "0.4.1",
+  "artifact_verification": {
+    "status": "verified",
+    "files": 99,
+    "core_manifest_bound": true,
+    "authentication": "checksums detect changes; no external signature or trust anchor"
+  },
+  "distribution_files_verified": 91,
+  "parsed_metadata_verified": {
+    "components": 12,
+    "variable_occurrences": 383,
+    "section_hash_scheme": "sha256 of HTMLParser section text; whitespace collapsed, UTF-8; v1",
+    "parsed_metadata_equal": true
+  },
+  "source_snapshots_verified": 13,
+  "checks": 104,
+  "canonical_workloads": 89,
+  "groups_disjoint": true
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "partial_cases": 5,
+  "final_cases": 32,
+  "total_attempts": 32,
+  "strict_joint": 32,
+  "completed_resume_checkpoint_unchanged": true
+}

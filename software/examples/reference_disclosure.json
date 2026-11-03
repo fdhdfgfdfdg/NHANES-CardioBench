@@ -1,0 +1,12 @@
+{
+  "system_name_and_exact_version": "NHANES-CardioBench authored positive control 0.4.8",
+  "provider_or_checkpoint": "local standard-library reference implementation; no model endpoint",
+  "condition": "provided_context",
+  "source_access_policy": "full catalog and authored semantic routes; conformance only, not competitive evaluation",
+  "retry_policy": "no retries in the reported reference run",
+  "token_use_and_cost_or_unavailable_reason": "not applicable: no model endpoint called by this reference adapter",
+  "candidate_gold_access": false,
+  "candidate_positive_control_route_access": true,
+  "run_kind": "local_control",
+  "suite_version": "0.4.8"
+}

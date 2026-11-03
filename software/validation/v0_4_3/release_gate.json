@@ -1,0 +1,34 @@
+{
+  "evidence_binding": {
+    "version": "0.4.3",
+    "core_manifest_sha256": "ba13dc6dc26adda7868b07bc060a4a3def250d349366701e5269779d76fb8af6",
+    "input_hashes": {
+      "tasks.json": "32c270b125192f98a60602518dd11347e559d92a3006b0308b16b0d4595ad922",
+      "gold.json": "de3a3974ef1ef0c8f5c5be784e10dcbc1b618214a03ef98417b4a19bd52d8d29",
+      "catalog.json": "f2e0f50ad847fb1a2c881fd4bf1905606aed7055c24ab79e4effd4eb58a6a684",
+      "release.json": "f981f156ff484d70c7d30d73e19dbf9a8ec6090e0704582dab9e0bb4c7adfb5e",
+      "positive_control_routes.json": "5cadc6349a3c3beed26e4ea31a64a0d61c3cba36ab62129fa9b8f90058c50d60",
+      "evidence_policy.json": "ec72013ce47dddec2d6aa797a4dc2f2dfd619975c4322be343ac046d93b0b883"
+    }
+  },
+  "test_methods": 303,
+  "status": "passed",
+  "version": "0.4.3",
+  "core_manifest_sha256": "ba13dc6dc26adda7868b07bc060a4a3def250d349366701e5269779d76fb8af6",
+  "artifact_verification": {
+    "status": "not bundled",
+    "scope": "core source/resources verified; outer delivery evidence is not installed"
+  },
+  "distribution_files_verified": 111,
+  "parsed_metadata_verified": {
+    "components": 12,
+    "variable_occurrences": 383,
+    "section_hash_scheme": "sha256 of HTMLParser section text; whitespace collapsed, UTF-8; v1",
+    "parsed_metadata_equal": true
+  },
+  "source_snapshots_verified": 13,
+  "checks": 104,
+  "canonical_workloads": 89,
+  "groups_disjoint": true,
+  "scope": "core staging gate"
+}

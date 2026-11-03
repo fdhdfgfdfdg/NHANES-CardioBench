@@ -1,0 +1,45 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "NHANES-CardioBench",
+  "version": "0.4.8",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "CPython 3.10 or newer; validated with 3.12.14 on Linux",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Chuanhao",
+      "familyName": "Nie",
+      "email": "cnie30@gatech.edu",
+      "@id": "https://orcid.org/0009-0006-4208-6414",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "College of Computing, Georgia Institute of Technology"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Yisong",
+      "familyName": "Chen",
+      "email": "ychen841@gatech.edu",
+      "@id": "https://orcid.org/0009-0009-4978-7565",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "College of Computing, Georgia Institute of Technology"
+      }
+    }
+  ],
+  "maintainer": {
+    "@type": "Person",
+    "givenName": "Yisong",
+    "familyName": "Chen",
+    "email": "ychen841@gatech.edu",
+    "@id": "https://orcid.org/0009-0009-4978-7565",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "College of Computing, Georgia Institute of Technology"
+    }
+  },
+  "codeRepository": "https://github.com/fdhdfgfdfdg/NHANES-CardioBench"
+}

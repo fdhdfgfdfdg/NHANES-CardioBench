@@ -1,0 +1,31 @@
+{
+  "version": "0.4.2",
+  "seconds": 0.7392352280003252,
+  "command": "python -m cardiobench reproduce",
+  "scope": "fresh interpreter, core staging verification and report writing; excludes installation and outer delivery verification",
+  "result": {
+    "reference": {
+      "checks": 104,
+      "joint_correct": 104,
+      "answer_correct": 104,
+      "evidence_correct": 104,
+      "schema_valid": 104
+    },
+    "lexical_semantic": {
+      "checks": 16,
+      "joint_correct": 11,
+      "answer_correct": 11,
+      "evidence_correct": 11,
+      "schema_valid": 16
+    },
+    "mutations": {
+      "mutation_protocol_version": "1.1",
+      "schema_valid_records": 312,
+      "historical_comparability": "34 non-answer perturbations changed from v0.4.0 to obey contract 1.1; compare protocols explicitly.",
+      "perturbed_records": 312,
+      "detected": 312,
+      "all_detected": true
+    },
+    "out": "/workspace/scratch/2c22ba238ffa/v042_evidence/process_reproduction"
+  }
+}

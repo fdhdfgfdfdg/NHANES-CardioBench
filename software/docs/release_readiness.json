@@ -1,0 +1,26 @@
+{
+  "version": "0.4.8",
+  "independent_human_review": {
+    "status": "pending",
+    "completed_reviewers": 0,
+    "completed_adjudications": 0,
+    "next_action": "Distribute separate blank forms to two reviewers; validate submissions and preserve adjudication."
+  },
+  "external_model_experiments": {
+    "status": "not_run",
+    "endpoint_calls": 0,
+    "next_action": "Freeze prompt and access track, complete validated disclosure, archive actual external requests and completions."
+  },
+  "platforms": {
+    "linux": "locally_validated",
+    "windows": "configured_not_run",
+    "macos": "configured_not_run",
+    "remote_ci": "not_run"
+  },
+  "public_release": {
+    "repository": "https://github.com/fdhdfgfdfdg/NHANES-CardioBench",
+    "version_doi": null,
+    "concept_doi": null,
+    "status": "github_repository_prepared_release_pending"
+  }
+}

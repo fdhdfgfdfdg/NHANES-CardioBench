@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "source_archive": "nhanes_cardiobench-0.4.0.tar.gz",
+  "build_stdout": "Processing /tmp/tmpd_xwbepr/nhanes_cardiobench-0.4.0\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: nhanes-cardiobench\n  Building wheel for nhanes-cardiobench (pyproject.toml): started\n  Building wheel for nhanes-cardiobench (pyproject.toml): finished with status 'done'\n  Created wheel for nhanes-cardiobench: filename=nhanes_cardiobench-0.4.0-py3-none-any.whl size=448835 sha256=145cddf4c8cb58af12bc6e1860272d87c6e8a1591c4d75ac126f1e09c11784d2\n  Stored in directory: /tmp/pip-ephem-wheel-cache-ndp_tb_6/wheels/c0/54/fb/1c5c08cef9e23b501ce58594d8e59972c9a34a279363b4ae96\nSuccessfully built nhanes-cardiobench\n",
+  "installed_verification": {
+    "distribution_files_verified": 81,
+    "parsed_metadata_verified": {
+      "components": 12,
+      "variable_occurrences": 383,
+      "section_hash_scheme": "sha256 of HTMLParser section text; whitespace collapsed, UTF-8; v1",
+      "parsed_metadata_equal": true
+    },
+    "source_snapshots_verified": 13,
+    "checks": 104,
+    "canonical_workloads": 89,
+    "groups_disjoint": true
+  }
+}

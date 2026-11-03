@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "input_type": "synthetic software-test forms only; zero human reviews",
+  "checks": 104,
+  "tests": [
+    "valid completed forms accepted",
+    "field-agreement counting"
+  ]
+}

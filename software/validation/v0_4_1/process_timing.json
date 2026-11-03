@@ -1,0 +1,6 @@
+{
+  "command": "python -m cardiobench reproduce --out <fresh external directory>",
+  "seconds": 0.9460091959990677,
+  "scope": "fresh interpreter; complete delivery integrity verification and report writing; excludes installation and extraction",
+  "stdout": "{\n  \"reference\": {\n    \"checks\": 104,\n    \"joint_correct\": 104,\n    \"answer_correct\": 104,\n    \"evidence_correct\": 104,\n    \"schema_valid\": 104\n  },\n  \"lexical_semantic\": {\n    \"checks\": 16,\n    \"joint_correct\": 11,\n    \"answer_correct\": 11,\n    \"evidence_correct\": 11,\n    \"schema_valid\": 16\n  },\n  \"mutations\": {\n    \"mutation_protocol_version\": \"1.1\",\n    \"schema_valid_records\": 312,\n    \"historical_comparability\": \"34 non-answer perturbations changed from v0.4.0 to obey contract 1.1; compare protocols explicitly.\",\n    \"perturbed_records\": 312,\n    \"detected\": 312,\n    \"all_detected\": true\n  },\n  \"out\": \"/workspace/scratch/2c22ba238ffa/v041_evidence/final_timed_reproduction\"\n}\n"
+}

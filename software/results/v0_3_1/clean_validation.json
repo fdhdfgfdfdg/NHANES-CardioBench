@@ -1,0 +1,19 @@
+{
+  "version": "0.3.1",
+  "test_methods": 162,
+  "new_test_methods": 19,
+  "fresh_process_seconds": 0.4040262510006869,
+  "regeneration": {
+    "parsed_bytes_equal": true,
+    "generated_files_byte_equal": {
+      "tasks.json": true,
+      "gold.json": true,
+      "catalog.json": true,
+      "positive_control_routes.json": true,
+      "release.json": true
+    },
+    "network_used": false
+  },
+  "installation_evidence": "validation/installation.json (distribution root)",
+  "scope": "local tests and frozen benchmark; no external AI model calls"
+}

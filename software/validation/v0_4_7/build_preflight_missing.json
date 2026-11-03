@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/workspace/scratch/2c22ba238ffa/audit_v046/clean_builder/bin/python",
+    "tools/check_installation.py",
+    "--out",
+    "/workspace/scratch/2c22ba238ffa/v047_missing_backend/installation.json",
+    "--sdist-out",
+    "/workspace/scratch/2c22ba238ffa/v047_missing_backend/sdist_build.json"
+  ],
+  "cwd": "/workspace/scratch/2c22ba238ffa/NHANES_CardioBench_v0_4_7_Software",
+  "returncode": 2,
+  "stdout": "",
+  "stderr": "BUILD_ENVIRONMENT_NOT_READY: build is not installed; setuptools is not installed; wheel is not installed. Prepare this interpreter with python -m pip install -r requirements-build.txt before offline validation.\n",
+  "success_reports_created": false,
+  "scope": "Observed local negative preflight check in a clean builder without build/setuptools/wheel."
+}

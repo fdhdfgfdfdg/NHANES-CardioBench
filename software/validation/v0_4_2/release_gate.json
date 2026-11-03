@@ -1,0 +1,21 @@
+{
+  "test_methods": 268,
+  "status": "passed",
+  "version": "0.4.2",
+  "artifact_verification": {
+    "status": "not bundled",
+    "scope": "core source/resources verified; outer delivery evidence is not installed"
+  },
+  "distribution_files_verified": 100,
+  "parsed_metadata_verified": {
+    "components": 12,
+    "variable_occurrences": 383,
+    "section_hash_scheme": "sha256 of HTMLParser section text; whitespace collapsed, UTF-8; v1",
+    "parsed_metadata_equal": true
+  },
+  "source_snapshots_verified": 13,
+  "checks": 104,
+  "canonical_workloads": 89,
+  "groups_disjoint": true,
+  "scope": "core staging gate"
+}

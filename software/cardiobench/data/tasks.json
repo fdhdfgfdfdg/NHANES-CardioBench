@@ -1,0 +1,3657 @@
+[
+  {
+    "id": "S01",
+    "canonical_id": "S01",
+    "kind": "semantic",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for self-reported history of clinician-diagnosed stroke.",
+    "request": {
+      "concept": "self-reported history of clinician-diagnosed stroke"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "S02",
+    "canonical_id": "S02",
+    "kind": "semantic",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for self-reported history of clinician-diagnosed congestive heart failure.",
+    "request": {
+      "concept": "self-reported history of clinician-diagnosed congestive heart failure"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "S03",
+    "canonical_id": "S03",
+    "kind": "semantic",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for self-reported history of clinician-diagnosed coronary heart disease.",
+    "request": {
+      "concept": "self-reported history of clinician-diagnosed coronary heart disease"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "S04",
+    "canonical_id": "S04",
+    "kind": "semantic",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for self-reported history of clinician-diagnosed myocardial infarction.",
+    "request": {
+      "concept": "self-reported history of clinician-diagnosed myocardial infarction"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "S05",
+    "canonical_id": "S05",
+    "kind": "semantic",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for self-reported history of clinician-diagnosed angina.",
+    "request": {
+      "concept": "self-reported history of clinician-diagnosed angina"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "S06",
+    "canonical_id": "S06",
+    "kind": "semantic",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for self-reported history of clinician-diagnosed arthritis.",
+    "request": {
+      "concept": "self-reported history of clinician-diagnosed arthritis"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "S07",
+    "canonical_id": "S07",
+    "kind": "semantic",
+    "group_id": "thyroid",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for current thyroid problem.",
+    "request": {
+      "concept": "current thyroid problem"
+    },
+    "split": "development"
+  },
+  {
+    "id": "S08",
+    "canonical_id": "S08",
+    "kind": "semantic",
+    "group_id": "bp_questionnaire",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for previous professional diagnosis of hypertension.",
+    "request": {
+      "concept": "previous professional diagnosis of hypertension"
+    },
+    "split": "development"
+  },
+  {
+    "id": "S09",
+    "canonical_id": "S09",
+    "kind": "semantic",
+    "group_id": "bp_questionnaire",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for current prescribed antihypertensive medication.",
+    "request": {
+      "concept": "current prescribed antihypertensive medication"
+    },
+    "split": "development"
+  },
+  {
+    "id": "S10",
+    "canonical_id": "S10",
+    "kind": "semantic",
+    "group_id": "activity",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for vigorous activity performed at work.",
+    "request": {
+      "concept": "vigorous activity performed at work"
+    },
+    "split": "development"
+  },
+  {
+    "id": "S11",
+    "canonical_id": "S11",
+    "kind": "semantic",
+    "group_id": "activity",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for walking or cycling for transport.",
+    "request": {
+      "concept": "walking or cycling for transport"
+    },
+    "split": "development"
+  },
+  {
+    "id": "S12",
+    "canonical_id": "S12",
+    "kind": "semantic",
+    "group_id": "activity",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for daily sedentary minutes.",
+    "request": {
+      "concept": "daily sedentary minutes"
+    },
+    "split": "development"
+  },
+  {
+    "id": "S13",
+    "canonical_id": "S13",
+    "kind": "semantic",
+    "group_id": "diet",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for first-day dietary sodium intake.",
+    "request": {
+      "concept": "first-day dietary sodium intake"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "S14",
+    "canonical_id": "S14",
+    "kind": "semantic",
+    "group_id": "glucose",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for fasting glucose in mg/dL.",
+    "request": {
+      "concept": "fasting glucose in mg/dL"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "S15",
+    "canonical_id": "S15",
+    "kind": "semantic",
+    "group_id": "lipids",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for Friedewald calculated LDL cholesterol.",
+    "request": {
+      "concept": "Friedewald calculated LDL cholesterol"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "S16",
+    "canonical_id": "S16",
+    "kind": "semantic",
+    "group_id": "lipids",
+    "cycle": "2017-2018",
+    "prompt": "For the 2017-2018 release, identify the variable and component for direct HDL cholesterol.",
+    "request": {
+      "concept": "direct HDL cholesterol"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "C01",
+    "canonical_id": "C01",
+    "kind": "coding",
+    "group_id": "blood_pressure",
+    "cycle": "2017-2018",
+    "prompt": "Return the documented measurement unit for BPXSY1.",
+    "request": {
+      "operation": "unit",
+      "file": "BPX_J",
+      "variable": "BPXSY1"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "C02",
+    "canonical_id": "C02",
+    "kind": "coding",
+    "group_id": "anthropometry",
+    "cycle": "2017-2018",
+    "prompt": "Return the documented measurement unit for BMXBMI.",
+    "request": {
+      "operation": "unit",
+      "file": "BMX_J",
+      "variable": "BMXBMI"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "C03",
+    "canonical_id": "C03",
+    "kind": "coding",
+    "group_id": "glucose",
+    "cycle": "2017-2018",
+    "prompt": "Return the documented measurement unit for LBXGLU.",
+    "request": {
+      "operation": "unit",
+      "file": "GLU_J",
+      "variable": "LBXGLU"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "C04",
+    "canonical_id": "C04",
+    "kind": "coding",
+    "group_id": "glucose",
+    "cycle": "2017-2018",
+    "prompt": "Return the documented measurement unit for LBDGLUSI.",
+    "request": {
+      "operation": "unit",
+      "file": "GLU_J",
+      "variable": "LBDGLUSI"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "C05",
+    "canonical_id": "C05",
+    "kind": "coding",
+    "group_id": "glycohemoglobin",
+    "cycle": "2017-2018",
+    "prompt": "Return the documented measurement unit for LBXGH.",
+    "request": {
+      "operation": "unit",
+      "file": "GHB_J",
+      "variable": "LBXGH"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "C06",
+    "canonical_id": "C06",
+    "kind": "coding",
+    "group_id": "diet",
+    "cycle": "2017-2018",
+    "prompt": "Return the documented measurement unit for DR1TSODI.",
+    "request": {
+      "operation": "unit",
+      "file": "DR1TOT_J",
+      "variable": "DR1TSODI"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "C07",
+    "canonical_id": "C07",
+    "kind": "coding",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "Recode documented refused, unknown and missing responses for MCQ160F; retain all other supplied values.",
+    "request": {
+      "operation": "clean",
+      "file": "MCQ_J",
+      "variable": "MCQ160F",
+      "values": [
+        1,
+        2,
+        7,
+        9,
+        null
+      ]
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "C08",
+    "canonical_id": "C08",
+    "kind": "coding",
+    "group_id": "bp_questionnaire",
+    "cycle": "2017-2018",
+    "prompt": "Recode documented refused, unknown and missing responses for BPQ050A; retain all other supplied values.",
+    "request": {
+      "operation": "clean",
+      "file": "BPQ_J",
+      "variable": "BPQ050A",
+      "values": [
+        1,
+        2,
+        7,
+        9,
+        null
+      ]
+    },
+    "split": "development"
+  },
+  {
+    "id": "C09",
+    "canonical_id": "C09",
+    "kind": "coding",
+    "group_id": "activity",
+    "cycle": "2017-2018",
+    "prompt": "Recode documented refused, unknown and missing responses for PAQ605; retain all other supplied values.",
+    "request": {
+      "operation": "clean",
+      "file": "PAQ_J",
+      "variable": "PAQ605",
+      "values": [
+        1,
+        2,
+        7,
+        9,
+        null
+      ]
+    },
+    "split": "development"
+  },
+  {
+    "id": "C10",
+    "canonical_id": "C10",
+    "kind": "coding",
+    "group_id": "activity",
+    "cycle": "2017-2018",
+    "prompt": "Recode documented refused, unknown and missing responses for PAQ640; retain all other supplied values.",
+    "request": {
+      "operation": "clean",
+      "file": "PAQ_J",
+      "variable": "PAQ640",
+      "values": [
+        1,
+        7,
+        77,
+        99,
+        null
+      ]
+    },
+    "split": "development"
+  },
+  {
+    "id": "C11",
+    "canonical_id": "C11",
+    "kind": "coding",
+    "group_id": "activity",
+    "cycle": "2017-2018",
+    "prompt": "Recode documented refused, unknown and missing responses for PAD680; retain all other supplied values.",
+    "request": {
+      "operation": "clean",
+      "file": "PAQ_J",
+      "variable": "PAD680",
+      "values": [
+        60,
+        7777,
+        9999,
+        null
+      ]
+    },
+    "split": "development"
+  },
+  {
+    "id": "C12",
+    "canonical_id": "C12",
+    "kind": "coding",
+    "group_id": "demography",
+    "cycle": "2017-2018",
+    "prompt": "Recode documented refused, unknown and missing responses for RIDAGEYR; retain all other supplied values.",
+    "request": {
+      "operation": "clean",
+      "file": "DEMO_J",
+      "variable": "RIDAGEYR",
+      "values": [
+        7,
+        9,
+        77,
+        80,
+        null
+      ]
+    },
+    "split": "development"
+  },
+  {
+    "id": "C13",
+    "canonical_id": "C13",
+    "kind": "coding",
+    "group_id": "demography",
+    "cycle": "2017-2018",
+    "prompt": "Recode documented refused, unknown and missing responses for INDFMPIR; retain all other supplied values.",
+    "request": {
+      "operation": "clean",
+      "file": "DEMO_J",
+      "variable": "INDFMPIR",
+      "values": [
+        0,
+        5,
+        1.2,
+        null
+      ]
+    },
+    "split": "development"
+  },
+  {
+    "id": "C14",
+    "canonical_id": "C14",
+    "kind": "coding",
+    "group_id": "anthropometry",
+    "cycle": "2017-2018",
+    "prompt": "Recode documented refused, unknown and missing responses for BMXBMI; retain all other supplied values.",
+    "request": {
+      "operation": "clean",
+      "file": "BMX_J",
+      "variable": "BMXBMI",
+      "values": [
+        17.2,
+        null,
+        34
+      ]
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "C15",
+    "canonical_id": "C15",
+    "kind": "coding",
+    "group_id": "glucose",
+    "cycle": "2017-2018",
+    "prompt": "Convert 100 and 126 mg/dL fasting glucose to mmol/L using the documented factor and rounding.",
+    "request": {
+      "operation": "convert_glucose",
+      "values": [
+        100,
+        126
+      ]
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "C16",
+    "canonical_id": "C16",
+    "kind": "coding",
+    "group_id": "unsupported",
+    "cycle": "2017-2018",
+    "prompt": "Give the documented unit for LBDGLUS in this preserved release; do not invent a code.",
+    "request": {
+      "operation": "unit",
+      "file": "GLU_J",
+      "variable": "LBDGLUS"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "W01",
+    "canonical_id": "W01",
+    "kind": "weights",
+    "group_id": "design_interview",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J.",
+    "request": {
+      "files": [
+        "DEMO_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "development"
+  },
+  {
+    "id": "W02",
+    "canonical_id": "W02",
+    "kind": "weights",
+    "group_id": "design_interview",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, MCQ_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "MCQ_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "development"
+  },
+  {
+    "id": "W03",
+    "canonical_id": "W03",
+    "kind": "weights",
+    "group_id": "design_interview",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, BPQ_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "BPQ_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "development"
+  },
+  {
+    "id": "W04",
+    "canonical_id": "W04",
+    "kind": "weights",
+    "group_id": "design_interview",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, PAQ_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "PAQ_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "development"
+  },
+  {
+    "id": "W05",
+    "canonical_id": "W05",
+    "kind": "weights",
+    "group_id": "design_mec",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, BMX_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "BMX_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "development"
+  },
+  {
+    "id": "W06",
+    "canonical_id": "W06",
+    "kind": "weights",
+    "group_id": "design_mec",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, BPX_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "BPX_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "development"
+  },
+  {
+    "id": "W07",
+    "canonical_id": "W07",
+    "kind": "weights",
+    "group_id": "design_mec",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, GHB_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "GHB_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "development"
+  },
+  {
+    "id": "W08",
+    "canonical_id": "W08",
+    "kind": "weights",
+    "group_id": "design_mec",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, TCHOL_J, HDL_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "TCHOL_J",
+        "HDL_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "development"
+  },
+  {
+    "id": "W09",
+    "canonical_id": "W09",
+    "kind": "weights",
+    "group_id": "design_fasting",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, GLU_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "GLU_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "W10",
+    "canonical_id": "W10",
+    "kind": "weights",
+    "group_id": "design_fasting",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, TRIGLY_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "TRIGLY_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "W11",
+    "canonical_id": "W11",
+    "kind": "weights",
+    "group_id": "design_fasting",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, GLU_J, TRIGLY_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "GLU_J",
+        "TRIGLY_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "W12",
+    "canonical_id": "W12",
+    "kind": "weights",
+    "group_id": "design_diet",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, DR1TOT_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "DR1TOT_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "W13",
+    "canonical_id": "W13",
+    "kind": "weights",
+    "group_id": "design_diet",
+    "cycle": "2017-2018",
+    "prompt": "Select the analysis weight and design fields for these components in 2017-2018: DEMO_J, BMX_J, DR1TOT_J.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "BMX_J",
+        "DR1TOT_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "W14",
+    "canonical_id": "W14",
+    "kind": "weights",
+    "group_id": "joint_design",
+    "cycle": "2017-2018",
+    "prompt": "Select a unique joint weight for fasting and first-day dietary records without a supplied joint nonresponse adjustment.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "GLU_J",
+        "DR1TOT_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "W15",
+    "canonical_id": "W15",
+    "kind": "weights",
+    "group_id": "joint_design",
+    "cycle": "2017-2018",
+    "prompt": "Select a unique joint weight for fasting and first-day dietary records without a supplied joint nonresponse adjustment.",
+    "request": {
+      "files": [
+        "DEMO_J",
+        "TRIGLY_J",
+        "DR1TOT_J"
+      ],
+      "analysis_cycle": "2017-2018"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "W16",
+    "canonical_id": "W16",
+    "kind": "weights",
+    "group_id": "unsupported",
+    "cycle": "2017-2018",
+    "prompt": "Select the weight for a 2019-2020 release using only this 2017-2018 corpus.",
+    "request": {
+      "files": [
+        "DEMO_J"
+      ],
+      "analysis_cycle": "2019-2020"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L01",
+    "canonical_id": "L01",
+    "kind": "leakage",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "MCQ160F"
+      ],
+      "feature_dependencies": {
+        "MCQ160F": [],
+        "RIDAGEYR": [],
+        "BMXBMI": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L02",
+    "canonical_id": "L02",
+    "kind": "leakage",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "MCQ160B"
+      ],
+      "feature_dependencies": {
+        "MCQ160B": [],
+        "RIAGENDR": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L03",
+    "canonical_id": "L03",
+    "kind": "leakage",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "MCQ160B",
+        "MCQ160C",
+        "MCQ160D",
+        "MCQ160E",
+        "MCQ160F"
+      ],
+      "feature_dependencies": {
+        "MCQ160C": [],
+        "RIDAGEYR": [],
+        "CVD_COPY": [
+          "MCQ160B",
+          "MCQ160E"
+        ]
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L04",
+    "canonical_id": "L04",
+    "kind": "leakage",
+    "group_id": "blood_pressure",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "BPXSY1",
+        "BPXSY2"
+      ],
+      "feature_dependencies": {
+        "MEAN_SBP": [
+          "BPXSY1",
+          "BPXSY2"
+        ],
+        "RIDAGEYR": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L05",
+    "canonical_id": "L05",
+    "kind": "leakage",
+    "group_id": "blood_pressure",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "BPXSY1",
+        "BPXSY2"
+      ],
+      "feature_dependencies": {
+        "BPXSY2": [],
+        "BMXBMI": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L06",
+    "canonical_id": "L06",
+    "kind": "leakage",
+    "group_id": "blood_pressure",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "BPXSY1",
+        "BPXDI1",
+        "BPQ050A"
+      ],
+      "feature_dependencies": {
+        "BPXDI1": [],
+        "HBP_COPY": [
+          "BPXSY1",
+          "BPXDI1",
+          "BPQ050A"
+        ],
+        "RIAGENDR": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L07",
+    "canonical_id": "L07",
+    "kind": "leakage",
+    "group_id": "glucose",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "LBXGLU"
+      ],
+      "feature_dependencies": {
+        "LBDGLUSI": [
+          "LBXGLU"
+        ],
+        "RIDAGEYR": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L08",
+    "canonical_id": "L08",
+    "kind": "leakage",
+    "group_id": "lipids",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "LBDHDD"
+      ],
+      "feature_dependencies": {
+        "NONHDL": [
+          "LBXTC",
+          "LBDHDD"
+        ],
+        "LBXTC": [],
+        "INDFMPIR": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L09",
+    "canonical_id": "L09",
+    "kind": "leakage",
+    "group_id": "diet",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "DR1TSODI"
+      ],
+      "feature_dependencies": {
+        "SODIUM_DENSITY": [
+          "DR1TSODI",
+          "DR1TKCAL"
+        ],
+        "RIDAGEYR": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L10",
+    "canonical_id": "L10",
+    "kind": "leakage",
+    "group_id": "glycohemoglobin",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "LBXGH"
+      ],
+      "feature_dependencies": {
+        "LBXGH": [],
+        "RIDAGEYR": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L11",
+    "canonical_id": "L11",
+    "kind": "leakage",
+    "group_id": "anthropometry",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "BMXBMI"
+      ],
+      "feature_dependencies": {
+        "BMI_COPY": [
+          "BMXBMI"
+        ],
+        "RIAGENDR": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L12",
+    "canonical_id": "L12",
+    "kind": "leakage",
+    "group_id": "medical_history",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "MCQ160F"
+      ],
+      "feature_dependencies": {
+        "RIDAGEYR": [],
+        "RIAGENDR": [],
+        "INDFMPIR": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L13",
+    "canonical_id": "L13",
+    "kind": "leakage",
+    "group_id": "blood_pressure",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "BPXSY1"
+      ],
+      "feature_dependencies": {
+        "RIDAGEYR": [],
+        "BMXBMI": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L14",
+    "canonical_id": "L14",
+    "kind": "leakage",
+    "group_id": "glucose",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "LBXGLU"
+      ],
+      "feature_dependencies": {
+        "GLU_ALIAS": [
+          "LBXGLU"
+        ],
+        "SECOND_ALIAS": [
+          "GLU_ALIAS"
+        ],
+        "RIDAGEYR": []
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L15",
+    "canonical_id": "L15",
+    "kind": "leakage",
+    "group_id": "anthropometry",
+    "cycle": "2017-2018",
+    "prompt": "Apply the declared dependency policy: exclude any feature with a transitive dependency on a label source.",
+    "request": {
+      "label_sources": [
+        "BMXBMI"
+      ],
+      "feature_dependencies": {
+        "HEIGHT": [
+          "BMXHT"
+        ],
+        "WEIGHT": [
+          "BMXWT"
+        ]
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L16",
+    "canonical_id": "L16",
+    "kind": "leakage",
+    "group_id": "dependency_invalid",
+    "cycle": "2017-2018",
+    "prompt": "Detect a cyclic dependency graph before attempting label-source tracing.",
+    "request": {
+      "label_sources": [
+        "LBXGLU"
+      ],
+      "feature_dependencies": {
+        "A": [
+          "B"
+        ],
+        "B": [
+          "A"
+        ]
+      }
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E01",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: base.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E02",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: permuted_rows.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E03",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: unmatched_right_row.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 999,
+          "BPXSY1": 999
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E04",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: minor_removed.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E05",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: missing_match.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E06",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: all_values_missing.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": null
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E07",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: duplicate_left.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E08",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: duplicate_right.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E09",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: negative_weight.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": -1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E10",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: missing_weight.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": null,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E11",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: all_weights_zero.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E12",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: age_77_is_valid.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 77,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E13",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: zero_diastolic_is_retained.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110,
+          "BPXDI1": 0
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130,
+          "BPXDI1": 80
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120,
+          "BPXDI1": 72
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null,
+          "BPXDI1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140,
+          "BPXDI1": 87
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90,
+          "BPXDI1": 60
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160,
+          "BPXDI1": 95
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120,
+          "BPXDI1": 70
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXDI1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E14",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: weight_scale.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1000,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2000,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1000,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3000,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2000,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1000,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2000,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E15",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: missing_column.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 3
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 2,
+          "RIDRETH3": 4
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 1,
+          "RIDRETH3": 5
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 1
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 1,
+          "RIDRETH3": 2
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 2,
+          "RIDRETH3": 3
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "E16",
+    "canonical_id": "E01",
+    "kind": "execution",
+    "group_id": "synthetic_execution",
+    "cycle": "2017-2018",
+    "prompt": "Execute the declared left join, adult domain filter and positive-weight complete-case mean on the synthetic fixture: irrelevant_group_labels.",
+    "request": {
+      "synthetic": true,
+      "left": [
+        {
+          "SEQN": 101,
+          "RIDAGEYR": 20,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 2,
+          "RIDRETH3": 9
+        },
+        {
+          "SEQN": 102,
+          "RIDAGEYR": 45,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 1,
+          "RIDRETH3": 9
+        },
+        {
+          "SEQN": 103,
+          "RIDAGEYR": 19,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 2,
+          "RIDRETH3": 9
+        },
+        {
+          "SEQN": 104,
+          "RIDAGEYR": 80,
+          "WTMEC2YR": 3,
+          "RIAGENDR": 1,
+          "RIDRETH3": 9
+        },
+        {
+          "SEQN": 105,
+          "RIDAGEYR": 35,
+          "WTMEC2YR": 0,
+          "RIAGENDR": 2,
+          "RIDRETH3": 9
+        },
+        {
+          "SEQN": 106,
+          "RIDAGEYR": 30,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 1,
+          "RIDRETH3": 9
+        },
+        {
+          "SEQN": 107,
+          "RIDAGEYR": 50,
+          "WTMEC2YR": 1,
+          "RIAGENDR": 2,
+          "RIDRETH3": 9
+        },
+        {
+          "SEQN": 108,
+          "RIDAGEYR": 9,
+          "WTMEC2YR": 2,
+          "RIAGENDR": 1,
+          "RIDRETH3": 9
+        }
+      ],
+      "right": [
+        {
+          "SEQN": 101,
+          "BPXSY1": 110
+        },
+        {
+          "SEQN": 102,
+          "BPXSY1": 130
+        },
+        {
+          "SEQN": 103,
+          "BPXSY1": 120
+        },
+        {
+          "SEQN": 104,
+          "BPXSY1": null
+        },
+        {
+          "SEQN": 105,
+          "BPXSY1": 140
+        },
+        {
+          "SEQN": 106,
+          "BPXSY1": 90
+        },
+        {
+          "SEQN": 107,
+          "BPXSY1": 160
+        },
+        {
+          "SEQN": 108,
+          "BPXSY1": 120
+        }
+      ],
+      "key": "SEQN",
+      "age_column": "RIDAGEYR",
+      "minimum_age": 20,
+      "value_column": "BPXSY1",
+      "weight_column": "WTMEC2YR"
+    },
+    "split": "evaluation"
+  },
+  {
+    "id": "L17",
+    "canonical_id": "L17",
+    "group_id": "extension_leakage_1",
+    "split": "development",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "Y"
+      ],
+      "feature_dependencies": {
+        "F": [
+          "Y"
+        ],
+        "G": [
+          "F"
+        ],
+        "AGE": []
+      }
+    }
+  },
+  {
+    "id": "L18",
+    "canonical_id": "L18",
+    "group_id": "extension_leakage_1",
+    "split": "development",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "Y",
+        "Z"
+      ],
+      "feature_dependencies": {
+        "F": [
+          "A",
+          "B"
+        ],
+        "A": [
+          "Y"
+        ],
+        "B": [
+          "Z"
+        ],
+        "C": []
+      }
+    }
+  },
+  {
+    "id": "L19",
+    "canonical_id": "L19",
+    "group_id": "extension_leakage_2",
+    "split": "development",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "TARGET"
+      ],
+      "feature_dependencies": {
+        "A": [
+          "RAW"
+        ],
+        "B": [
+          "A"
+        ],
+        "RAW": []
+      }
+    }
+  },
+  {
+    "id": "L20",
+    "canonical_id": "L20",
+    "group_id": "extension_leakage_2",
+    "split": "development",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "Y"
+      ],
+      "feature_dependencies": {
+        "Y": [],
+        "COPY": [
+          "Y"
+        ],
+        "SAFE": [
+          "U"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L21",
+    "canonical_id": "L21",
+    "group_id": "extension_leakage_3",
+    "split": "development",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "Y"
+      ],
+      "feature_dependencies": {
+        "A": [
+          "A"
+        ],
+        "B": [
+          "Y"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L22",
+    "canonical_id": "L22",
+    "group_id": "extension_leakage_3",
+    "split": "development",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "Y"
+      ],
+      "feature_dependencies": {
+        "F": [
+          "MISSING_INTERMEDIATE"
+        ],
+        "G": []
+      }
+    }
+  },
+  {
+    "id": "L23",
+    "canonical_id": "L23",
+    "group_id": "extension_leakage_4",
+    "split": "evaluation",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "Z"
+      ],
+      "feature_dependencies": {
+        "LEFT": [
+          "Z"
+        ],
+        "RIGHT": [
+          "Z"
+        ],
+        "MERGED": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "FREE": [
+          "X"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L24",
+    "canonical_id": "L24",
+    "group_id": "extension_leakage_4",
+    "split": "evaluation",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "Y",
+        "X"
+      ],
+      "feature_dependencies": {
+        "P": [
+          "Q"
+        ],
+        "Q": [
+          "R"
+        ],
+        "R": [
+          "X"
+        ],
+        "W": [
+          "Z"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L25",
+    "canonical_id": "L25",
+    "group_id": "extension_leakage_5",
+    "split": "evaluation",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "RESULT"
+      ],
+      "feature_dependencies": {
+        "RESULT": [
+          "RAW"
+        ],
+        "DERIVED": [
+          "RESULT"
+        ],
+        "OTHER": [
+          "RAW"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L26",
+    "canonical_id": "L26",
+    "group_id": "extension_leakage_5",
+    "split": "evaluation",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [],
+      "feature_dependencies": {
+        "A": [
+          "B"
+        ],
+        "B": []
+      }
+    }
+  },
+  {
+    "id": "L27",
+    "canonical_id": "L27",
+    "group_id": "extension_leakage_6",
+    "split": "evaluation",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "Y"
+      ],
+      "feature_dependencies": {
+        "F": [
+          "Y"
+        ],
+        "A": [
+          "B"
+        ],
+        "B": [
+          "C"
+        ],
+        "C": [
+          "A"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L28",
+    "canonical_id": "L28",
+    "group_id": "extension_leakage_6",
+    "split": "evaluation",
+    "kind": "leakage",
+    "cycle": "2017-2018",
+    "prompt": "Trace the declared label dependencies; return sorted excluded feature names or reject a cycle.",
+    "request": {
+      "label_sources": [
+        "Y"
+      ],
+      "feature_dependencies": {
+        "Y": [
+          "RAW"
+        ],
+        "A": [
+          "RAW"
+        ],
+        "B": [
+          "A"
+        ],
+        "C": [
+          "B",
+          "Y"
+        ]
+      }
+    }
+  },
+  {
+    "id": "E17",
+    "canonical_id": "E17",
+    "group_id": "extension_execution_1",
+    "split": "development",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 20,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 1,
+          "age": 30,
+          "w": 1
+        },
+        {
+          "id": 2,
+          "age": 50,
+          "w": 2
+        },
+        {
+          "id": 3,
+          "age": 65,
+          "w": 3
+        },
+        {
+          "id": 4,
+          "age": 9,
+          "w": 9
+        },
+        {
+          "id": 5,
+          "age": 40,
+          "w": 4
+        }
+      ],
+      "right": [
+        {
+          "id": 1,
+          "x": 0
+        },
+        {
+          "id": 2,
+          "x": 10
+        },
+        {
+          "id": 3,
+          "x": 30
+        },
+        {
+          "id": 4,
+          "x": 200
+        }
+      ]
+    }
+  },
+  {
+    "id": "E18",
+    "canonical_id": "E18",
+    "group_id": "extension_execution_1",
+    "split": "development",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 20,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 21,
+          "age": 30,
+          "w": null
+        },
+        {
+          "id": 22,
+          "age": 19,
+          "w": 2
+        },
+        {
+          "id": 23,
+          "age": 40,
+          "w": 0
+        },
+        {
+          "id": 24,
+          "age": 50,
+          "w": 5
+        }
+      ],
+      "right": [
+        {
+          "id": 21,
+          "x": 1
+        },
+        {
+          "id": 22,
+          "x": 2
+        },
+        {
+          "id": 23,
+          "x": 3
+        },
+        {
+          "id": 24,
+          "x": 12.5
+        }
+      ]
+    }
+  },
+  {
+    "id": "E19",
+    "canonical_id": "E19",
+    "group_id": "extension_execution_2",
+    "split": "development",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 18,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 31,
+          "age": 18,
+          "w": 2
+        }
+      ],
+      "right": [
+        {
+          "id": 31,
+          "x": -4
+        }
+      ]
+    }
+  },
+  {
+    "id": "E20",
+    "canonical_id": "E20",
+    "group_id": "extension_execution_2",
+    "split": "development",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 20,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 41,
+          "age": 30,
+          "w": 1e+308
+        },
+        {
+          "id": 42,
+          "age": 40,
+          "w": 1e+308
+        }
+      ],
+      "right": [
+        {
+          "id": 41,
+          "x": 1e+308
+        },
+        {
+          "id": 42,
+          "x": 1e+308
+        }
+      ]
+    }
+  },
+  {
+    "id": "E21",
+    "canonical_id": "E21",
+    "group_id": "extension_execution_3",
+    "split": "development",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 20,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 51,
+          "age": 30,
+          "w": 1
+        },
+        {
+          "id": 52,
+          "age": 30,
+          "w": 1
+        },
+        {
+          "id": 53,
+          "age": 30,
+          "w": 1
+        }
+      ],
+      "right": [
+        {
+          "id": 51,
+          "x": 1e+100
+        },
+        {
+          "id": 52,
+          "x": 1
+        },
+        {
+          "id": 53,
+          "x": -1e+100
+        }
+      ]
+    }
+  },
+  {
+    "id": "E22",
+    "canonical_id": "E22",
+    "group_id": "extension_execution_3",
+    "split": "development",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 20,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 61,
+          "age": 30,
+          "w": 1
+        },
+        {
+          "id": 62,
+          "age": 50,
+          "w": 2
+        }
+      ],
+      "right": [
+        {
+          "id": 61,
+          "x": 8
+        },
+        {
+          "id": 62,
+          "x": 10
+        },
+        {
+          "id": 62,
+          "x": 12
+        }
+      ]
+    }
+  },
+  {
+    "id": "E23",
+    "canonical_id": "E23",
+    "group_id": "extension_execution_4",
+    "split": "evaluation",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 20,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 71,
+          "age": 30,
+          "w": 1
+        },
+        {
+          "id": 72,
+          "age": 40,
+          "w": 2
+        }
+      ],
+      "right": [
+        {
+          "id": 700,
+          "x": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "E24",
+    "canonical_id": "E24",
+    "group_id": "extension_execution_4",
+    "split": "evaluation",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 65,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 81,
+          "age": 70,
+          "w": 1e-200
+        },
+        {
+          "id": 82,
+          "age": 90,
+          "w": 3e-200
+        }
+      ],
+      "right": [
+        {
+          "id": 81,
+          "x": 1
+        },
+        {
+          "id": 82,
+          "x": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "E25",
+    "canonical_id": "E25",
+    "group_id": "extension_execution_5",
+    "split": "evaluation",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 20,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 91,
+          "age": 21,
+          "w": 0.25
+        },
+        {
+          "id": 92,
+          "age": 22,
+          "w": 0.75
+        }
+      ],
+      "right": [
+        {
+          "id": 92,
+          "x": 8
+        },
+        {
+          "id": 91,
+          "x": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "E26",
+    "canonical_id": "E26",
+    "group_id": "extension_execution_5",
+    "split": "evaluation",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 20,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 101,
+          "age": 30,
+          "w": 1
+        },
+        {
+          "id": 102,
+          "age": 31,
+          "w": 1
+        }
+      ],
+      "right": [
+        {
+          "id": 101,
+          "x": 3
+        },
+        {
+          "id": 999
+        }
+      ]
+    }
+  },
+  {
+    "id": "E27",
+    "canonical_id": "E27",
+    "group_id": "extension_execution_6",
+    "split": "evaluation",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 20,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 111,
+          "age": 10,
+          "w": -1
+        },
+        {
+          "id": 112,
+          "age": 40,
+          "w": 1
+        }
+      ],
+      "right": [
+        {
+          "id": 111,
+          "x": 8
+        },
+        {
+          "id": 112,
+          "x": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "E28",
+    "canonical_id": "E28",
+    "group_id": "extension_execution_6",
+    "split": "evaluation",
+    "kind": "execution",
+    "cycle": "2017-2018",
+    "prompt": "Apply the documented synthetic join, eligibility and weighted-mean policy. These are numerical test values, not clinical observations.",
+    "request": {
+      "synthetic": true,
+      "key": "id",
+      "age_column": "age",
+      "minimum_age": 20,
+      "weight_column": "w",
+      "value_column": "x",
+      "left": [
+        {
+          "id": 121,
+          "age": 20,
+          "w": 2
+        },
+        {
+          "id": 122,
+          "age": 50,
+          "w": 1
+        },
+        {
+          "id": 123,
+          "age": 8,
+          "w": 1
+        },
+        {
+          "id": 124,
+          "age": 30,
+          "w": 0
+        },
+        {
+          "id": 125,
+          "age": 60,
+          "w": 1
+        },
+        {
+          "id": 126,
+          "age": 25,
+          "w": null
+        }
+      ],
+      "right": [
+        {
+          "id": 122,
+          "x": 10
+        },
+        {
+          "id": 121,
+          "x": -5
+        },
+        {
+          "id": 123,
+          "x": 4
+        },
+        {
+          "id": 124,
+          "x": 7
+        },
+        {
+          "id": 126,
+          "x": 8
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,30 @@
+name: benchmark-contracts
+on: [push, pull_request]
+jobs:
+  tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ['3.10', '3.12', '3.13']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m cardiobench verify
+      - run: python -m unittest discover -s tests -v
+      - run: python tools/check_regeneration.py
+      - run: python tools/check_release.py --core-only
+      - run: python -m cardiobench reproduce --out results/ci
+      - run: python -m pip install -r requirements-build.txt
+      - run: python -m build --no-isolation --outdir dist
+      - run: python tools/check_installation.py --package-dir dist
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-${{ matrix.os }}-${{ matrix.python }}
+          path: |
+            results/ci/
+            results/ci/installation.json

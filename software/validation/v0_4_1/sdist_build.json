@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "build_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-m",
+    "pip",
+    "wheel",
+    "--no-index",
+    "--no-deps",
+    "--no-build-isolation",
+    "--wheel-dir",
+    "/tmp/tmpltlvemce/wheel",
+    "/workspace/scratch/2c22ba238ffa/NHANES_CardioBench_v0_4_1_Software/dist/nhanes_cardiobench-0.4.1.tar.gz"
+  ],
+  "build_stdout": "Processing ./dist/nhanes_cardiobench-0.4.1.tar.gz\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: nhanes-cardiobench\n  Building wheel for nhanes-cardiobench (pyproject.toml): started\n  Building wheel for nhanes-cardiobench (pyproject.toml): finished with status 'done'\n  Created wheel for nhanes-cardiobench: filename=nhanes_cardiobench-0.4.1-py3-none-any.whl size=477727 sha256=5fa4ed439a7b03144391a6322c1b570752475511f445cfb4cd4a4a1d863cca1f\n  Stored in directory: /root/.cache/pip/wheels/c8/d9/af/5acc110f3eaa2f7facd0921c6ea662ae5bfd74eb9e31911643\nSuccessfully built nhanes-cardiobench\n",
+  "install_stdout": "Processing /tmp/tmpltlvemce/wheel/nhanes_cardiobench-0.4.1-py3-none-any.whl\nInstalling collected packages: nhanes-cardiobench\nSuccessfully installed nhanes-cardiobench-0.4.1\n",
+  "verify": {
+    "artifact_verification": {
+      "status": "not bundled",
+      "scope": "core source/resources verified; outer delivery evidence is not installed"
+    },
+    "distribution_files_verified": 91,
+    "parsed_metadata_verified": {
+      "components": 12,
+      "variable_occurrences": 383,
+      "section_hash_scheme": "sha256 of HTMLParser section text; whitespace collapsed, UTF-8; v1",
+      "parsed_metadata_equal": true
+    },
+    "source_snapshots_verified": 13,
+    "checks": 104,
+    "canonical_workloads": 89,
+    "groups_disjoint": true
+  },
+  "platform": "linux",
+  "network_used": false
+}

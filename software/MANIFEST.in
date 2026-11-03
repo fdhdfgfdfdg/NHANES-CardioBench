@@ -1,0 +1,11 @@
+include .gitattributes MANIFEST_SHA256.json README.md CHANGELOG.md LICENSE CITATION.cff codemeta.json THIRD_PARTY_NOTICES.md requirements.txt requirements-build.txt environment.lock.json .python-version pyproject.toml setup.py MANIFEST.in
+recursive-include .github *.yml
+recursive-include cardiobench *.py *.json
+recursive-include sources *.json *.html
+recursive-include docs *.md *.json
+recursive-include examples *.py *.json
+recursive-include tests *.py
+recursive-include tools *.py
+recursive-include results *.json *.csv *.txt
+
+include ROUND*.txt

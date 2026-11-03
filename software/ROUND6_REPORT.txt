@@ -1,0 +1,15 @@
+NHANES-CardioBench 0.4.0 第六轮修订
+
+F01 | Fixed | Adapter path, launch command and interpreter are part of schema-3 binding.
+F02 | Fixed | Source-parser output protects release files and custom snapshot inputs; atomic writes.
+F03 | Fixed | CSV now uses the shared atomic byte writer; link target remains unchanged.
+F04 | Fixed | Exact rational accumulation preserves finite cancellation and row-order invariance.
+F05 | Implemented | Export and adapter payloads include common versioned fields, types and reason codes.
+F06 | Implemented; independent adjudication pending | Strict metric retained; author-defined W11 source alternatives reported separately.
+F07 | Fixed | Shared full task metadata and unique-ID validation precedes writes and scoring.
+F08 | Fixed | Typed disclosure checks; version/hash/subset/timeout consistency; unknown values explicit.
+F09 | Tools ready; human and external evidence pending | Blank 104-check forms, validator and comparison tool; no fabricated review or model results.
+F10 | Implemented | 24 separately specified synthetic tasks, 12 development / 12 evaluation; first 80 preserved.
+F11 | Local changes complete; external verification pending | Historical version label corrected; release metadata gate and 3-OS CI configured. Public repository/DOI not assigned.
+
+197项本地测试通过；原80项保留，新增24项。实际独立人工复核、外部模型实验、Windows/macOS实测、远程CI和公开归档仍未完成。

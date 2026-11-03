@@ -1,0 +1,5 @@
+{
+  "fresh_process_seconds": 0.6622622340000817,
+  "stdout": "{\n  \"reference\": {\n    \"checks\": 104,\n    \"joint_correct\": 104,\n    \"answer_correct\": 104,\n    \"evidence_correct\": 104,\n    \"schema_valid\": 104\n  },\n  \"lexical_semantic\": {\n    \"checks\": 16,\n    \"joint_correct\": 11,\n    \"answer_correct\": 11,\n    \"evidence_correct\": 11,\n    \"schema_valid\": 16\n  },\n  \"mutations\": {\n    \"perturbed_records\": 312,\n    \"detected\": 312,\n    \"all_detected\": true\n  },\n  \"out\": \"/workspace/scratch/2c22ba238ffa/cardiobench_audit/v040_measured\"\n}\n",
+  "stderr": ""
+}
