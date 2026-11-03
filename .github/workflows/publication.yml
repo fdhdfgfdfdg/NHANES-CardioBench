@@ -1,0 +1,96 @@
+name: Publish and verify reviewed delivery
+on:
+  push:
+    paths:
+      - NHANES_CardioBench_v0.4.8.zip
+      - .github/workflows/publication.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  publish_source:
+    name: Expand verified source delivery
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify archive and expand its exact files
+        shell: python
+        run: |
+          from pathlib import Path, PurePosixPath
+          import hashlib, zipfile
+          archive=Path('NHANES_CardioBench_v0.4.8.zip')
+          assert hashlib.sha256(archive.read_bytes()).hexdigest()=='111a8dabac75b9fedb1526e9a04005cae8a8e6e1e45254a4773a7e4ad7866c53'
+          destination=Path('software')
+          with zipfile.ZipFile(archive) as z:
+              assert len(z.namelist())==643
+              for item in z.infolist():
+                  parts=PurePosixPath(item.filename).parts
+                  assert parts[0]=='NHANES_CardioBench_v0_4_8_Software' and len(parts)>1
+                  assert not PurePosixPath(item.filename).is_absolute() and '..' not in parts
+                  assert ((item.external_attr >> 16) & 0o170000) != 0o120000
+                  target=destination.joinpath(*parts[1:])
+                  target.parent.mkdir(parents=True,exist_ok=True)
+                  target.write_bytes(z.read(item))
+          print('Expanded 643 exact software and evidence files.')
+      - name: Verify the expanded complete delivery
+        working-directory: software
+        run: python -m cardiobench verify --require-artifacts
+      - name: Commit the reviewed source files
+        shell: bash
+        run: |
+          git add software
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Publish complete reviewed NHANES-CardioBench 0.4.8 source'
+            git push origin HEAD:main
+          fi
+          git rev-parse HEAD
+  validate:
+    name: ${{ matrix.os }} Python ${{ matrix.python }}
+    needs: publish_source
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-22.04, windows-latest, macos-latest]
+        python: ['3.10', '3.12', '3.13']
+    defaults:
+      run:
+        working-directory: software
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Record tested commit
+        run: git rev-parse HEAD
+      - name: Verify complete delivery
+        run: python -m cardiobench verify --require-artifacts
+      - name: Run all 445 regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Check offline byte regeneration
+        run: python tools/check_regeneration.py
+      - name: Check release accounting
+        run: python tools/check_release.py --core-only
+      - name: Reproduce benchmark results
+        run: python -m cardiobench reproduce --out results/ci
+      - name: Prepare pinned build tools
+        run: python -m pip install -r requirements-build.txt
+      - name: Build current wheel and source distribution
+        run: python -m build --no-isolation --outdir dist
+      - name: Test installed wheel and offline source rebuild
+        run: python tools/check_installation.py --package-dir dist
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-${{ matrix.os }}-${{ matrix.python }}
+          path: software/results/ci/
